@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hide-scrollbar {
+    overflow-x: auto; /* Permite el desplazamiento horizontal */
+    scrollbar-width: none; /* Para navegadores Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Para navegadores WebKit (Chrome, Safari) */
+}
