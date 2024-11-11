@@ -26,7 +26,7 @@ export const ShoppingCart = () => {
                                 </div>
                                 <div className='flex flex-col'>
                                 <h2 className='font-bold text-[20px] text-[#333333]'> {item.productName}</h2>
-                                <h2 className='font-bold text-[15px] text-[#4CAD73]'> Rp {item.productPrice} <span className='text-[#828282] text-[13px] font-normal'> / {item.quantity} kg</span></h2>
+                                <h2 className='font-bold text-[15px] text-[#4CAD73]'> $ {item.productPrice} <span className='text-[#828282] text-[13px] font-normal'> / {item.quantity} kg</span></h2>
                                 </div>
                                 <div>
                                     <button onClick={() => removeFromCart(item.id)} className=" text-black text-[2rem] ps-6 pt-1"><Icon icon="material-symbols:close" /></button>

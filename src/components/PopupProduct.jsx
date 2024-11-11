@@ -33,7 +33,7 @@ export const PopupProduct = ({ infoProduct, cerrarPopup }) => {
                     </div>
                     <div className='w-72 text-[0.8rem]'>
                         <h2 className='font-bold text-[2rem] text-[#333333]'> {infoProduct.productName}</h2>
-                        <h2 className='font-bold text-[1.5rem] text-[#4CAD73]'> Rp {infoProduct.productPrice} <span className='text-[#828282] text-[1rem] font-normal'> / {infoProduct.productCantidad} kg</span></h2>
+                        <h2 className='font-bold text-[1.5rem] text-[#4CAD73]'> $ {infoProduct.productPrice} <span className='text-[#828282] text-[1rem] font-normal'> / {infoProduct.productCantidad} kg</span></h2>
                     </div>
                     <div>
                     <div>

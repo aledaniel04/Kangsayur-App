@@ -105,7 +105,7 @@ export const ShowProducts = ({ VistaAdmin }) => {
                 </div>
                 <div className='w-40 pl-2'>
                   <h2 className='font-bold text-[15px] text-[#333333]'> {product.productName}</h2>
-                  <h2 className='font-bold text-[14px] text-[#4CAD73]'> Rp {product.productPrice} <span className='text-[#828282] text-[12px] font-normal'> / {product.productCantidad} kg</span></h2>
+                  <h2 className='font-bold text-[14px] text-[#4CAD73]'> $ {product.productPrice} <span className='text-[#828282] text-[12px] font-normal'> / {product.productCantidad} kg</span></h2>
                 </div>
                 {/* abre el popup del producto */}
                 <div className=' text-[#4CAD73] font-semibold text-[2rem] flex justify-between p-2'>
