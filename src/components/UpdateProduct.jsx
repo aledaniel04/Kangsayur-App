@@ -40,7 +40,7 @@ export const UpdateProduct = ({ ProductEdit, cerrarPopup }) => {
             url = await getDownloadURL(snapshot.ref);
         } else {
             // Mantener la URL de la imagen existente si no se sube una nueva
-            url = ProductEdit.productImage; 
+            url = ProductEdit.productImage;
         }
 
         // Usar el ID del producto para actualizarlo
@@ -91,7 +91,9 @@ export const UpdateProduct = ({ ProductEdit, cerrarPopup }) => {
                             <option disabled value="">Agregar una categoría</option>
                             <option value="vegetales">Vegetales</option>
                             <option value="frutas">Frutas</option>
-                            <option value="lacteos">Lácteos</option>
+                            <option value="carne">carne</option>
+                            <option value="bebidas">bebidas</option>
+                            <option value="panaderia">panaderia</option>
                         </select>
                     </div>
                     <div className='flex flex-col'>
