@@ -68,7 +68,7 @@ export const Home = () => {
           <button onClick={handleGoogle} className='w-[85%] text-gray-400  text-center py-1 text-[1.361rem] border border-[#BDBDBD] cursor-pointer rounded-[0.5rem] font-semibold flex items-center ps-4'>
             <Icon icon="flat-color-icons:google" /> <p className='ms-20'>Google</p>
           </button>
-          <button className='w-[85%] bg-indigo-500 border text-center py-1 text-white text-[1.361rem] cursor-pointer rounded-[0.5rem] font-semibold flex items-center ps-4'>
+          <button className='w-[85%] bg-indigo-600 border text-center py-1 text-white text-[1.361rem] cursor-pointer rounded-[0.5rem] font-semibold flex items-center ps-4'>
             <Icon icon="ic:baseline-facebook" />
             <p className='ms-[4.5rem]'>Facebook</p>
           </button>
