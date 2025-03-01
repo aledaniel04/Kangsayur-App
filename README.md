@@ -7,7 +7,7 @@ Funcionalidades de Kansagsayur-App
 
 Los usuarios pueden registrarse con su correo y contraseña para luego iniciar sesión utilizando este mismo metodo o directamente a través de Google, por último el usuario puede recuperar su contraseña, esto gracias a Firebase Authentication que asegura una gestión de usuarios confiable y segura. 
 
-<img src="https://github.com/user-attachments/assets/275d22f3-ad53-44ed-bd1e-5b76ee47a959" alt="image" width="230"> <img src="https://github.com/user-attachments/assets/c088d959-c108-4dc1-8bc8-0707db767011" alt="image" width="230"> <img src="https://github.com/user-attachments/assets/24fef515-9c4a-4797-acac-224a227ff8d0" alt="image" width="230"> <img src="https://github.com/user-attachments/assets/139c3c57-e977-4c78-a306-20a7e5a437ad" alt="image" width="230">
+<img src="https://github.com/user-attachments/assets/275d22f3-ad53-44ed-bd1e-5b76ee47a959" alt="image" width="210"> <img src="https://github.com/user-attachments/assets/c088d959-c108-4dc1-8bc8-0707db767011" alt="image" width="210"> <img src="https://github.com/user-attachments/assets/24fef515-9c4a-4797-acac-224a227ff8d0" alt="image" width="210">
 
 2- Roles de Usuario:
 
